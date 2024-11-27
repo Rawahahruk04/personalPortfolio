@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rawaha Ruknuddin's Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/lib/index.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 text-white">
+    <div class="max-w-screen-xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold">Rawaha R.</a>
+      <button id="navbar-toggler" class="lg:hidden text-white">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      <div id="navbar-menu" class="hidden lg:flex space-x-4">
+        <a href="#about" class="hover:text-gray-400">About Me</a>
+        <a href="#skills" class="hover:text-gray-400">Skills</a>
+        <a href="#projects" class="hover:text-gray-400">Projects</a>
+        <a href="#contact" class="hover:text-gray-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-blue-600 text-white text-center py-20">
+    <h1 class="text-4xl font-bold">Hi, I'm Rawaha Ruknuddin</h1>
+    <p class="mt-4 text-xl">2nd Year CSE Student | Networking, UI/UX, Web Development Enthusiast</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-screen-xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center">About Me</h2>
+      <p class="mt-6 text-gray-700 text-lg text-center max-w-2xl mx-auto">
+        I'm a passionate Computer Science Engineering student with a keen interest in Networking, UI/UX design, and Web Development.
+        I enjoy building user-friendly and efficient web applications. I'm always eager to learn new technologies and
+        explore how they can improve user experience and network infrastructure.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 bg-gray-50">
+    <div class="max-w-screen-xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">Skills</h2>
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="font-semibold text-xl text-blue-600">Web Development</h3>
+          <ul class="mt-4 list-disc text-gray-700 text-left">
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Tailwind CSS, Bootstrap</li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="font-semibold text-xl text-blue-600">UI/UX Design</h3>
+          <ul class="mt-4 list-disc text-gray-700 text-left">
+            <li>Wireframing</li>
+            <li>Figma, Adobe XD</li>
+            <li>User Research</li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="font-semibold text-xl text-blue-600">Networking</h3>
+          <ul class="mt-4 list-disc text-gray-700 text-left">
+            <li>Network Configuration</li>
+            <li>TCP/IP, DNS, DHCP</li>
+            <li>Routing and Switching</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-white">
+    <div class="max-w-screen-xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">Projects</h2>
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Project 1: Web App</h3>
+            <p class="mt-2 text-gray-700">A responsive web application for managing tasks. Built using React and Node.js.</p>
+          </div>
+        </div>
+        <div class="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Project 2: UI Design</h3>
+            <p class="mt-2 text-gray-700">A user interface design for an e-commerce app created using Figma.</p>
+          </div>
+        </div>
+        <div class="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Project 3: Networking Setup</h3>
+            <p class="mt-2 text-gray-700">A project to set up a secure local area network (LAN) for a small office.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-blue-600 text-white">
+    <div class="max-w-screen-xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">Contact Me</h2>
+      <p class="mt-4 text-lg">Feel free to reach out for collaboration or just to say hello!</p>
+      <div class="mt-8">
+        <a href="mailto:rawaha@example.com" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2024 Rawaha Ruknuddin. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Mobile Navbar Script -->
+  <script>
+    const navbarToggler = document.getElementById("navbar-toggler");
+    const navbarMenu = document.getElementById("navbar-menu");
+
+    navbarToggler.addEventListener("click", () => {
+      navbarMenu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+
+</html>
